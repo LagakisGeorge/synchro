@@ -1,0 +1,24 @@
+[History]
+1=#P0#=mb	#P1#=Timer1_Timer	#P2#=Project1/form1/Timer1_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161222042151	#P7#=0	#P8#=20	.
+2=#P0#=mb	#P1#=DELEGGTIM	#P2#=Project1/form1/DELEGGTIM	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161222041920	#P7#=0	#P8#=71	.
+3=#P0#=mb	#P1#=PONTOI_Click	#P2#=Project1/form1/PONTOI_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161222041828	#P7#=0	#P8#=23	.
+4=#P0#=mb	#P1#=EID_Click	#P2#=Project1/form1/EID_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161222012145	#P7#=0	#P8#=220	.
+5=#P0#=mb	#P1#=OLDTIMES_UPD	#P2#=Project1/form1/OLDTIMES_UPD	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161221233456	#P7#=0	#P8#=427	.
+6=#P0#=mb	#P1#=LOAD_PELATES	#P2#=Project1/form1/LOAD_PELATES	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161221220613	#P7#=0	#P8#=10	.
+7=#P0#=mb	#P1#=TIMES_UPD	#P2#=Project1/form1/TIMES_UPD	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161221220540	#P7#=0	#P8#=173	.
+8=#P0#=mb	#P1#=FINDPARAMETROI	#P2#=Project1/Module1/FINDPARAMETROI	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161220074615	#P7#=0	#P8#=106	.
+9=#P0#=mb	#P1#=EnhmBarcodes	#P2#=Project1/form1/EnhmBarcodes	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161220074400	#P7#=0	#P8#=32	.
+10=#P0#=mb	#P1#=Get_Kin	#P2#=Project1/form1/Get_Kin	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161220074316	#P7#=0	#P8#=262	.
+11=#P0#=mb	#P1#=synchro	#P2#=Project1/form1/synchro	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161220074249	#P7#=0	#P8#=3	.
+12=#P0#=mb	#P1#=SAVE_ERROR	#P2#=Project1/Module1/SAVE_ERROR	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161220073954	#P7#=0	#P8#=2	.
+13=#P0#=mb	#P1#=open_data	#P2#=Project1/form1/open_data	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161220073406	#P7#=0	#P8#=9	.
+14=#P0#=mb	#P1#=Form_Load	#P2#=Project1/form1/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161220072733	#P7#=0	#P8#=24	.
+15=#P0#=mb	#P1#=FolderExists	#P2#=Project1/form1/FolderExists	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161220071130	#P7#=0	#P8#=-13	.
+16=#P0#=mb	#P1#=ShowSQLErrorInfo	#P2#=Project1/form1/ShowSQLErrorInfo	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161219235242	#P7#=0	#P8#=21	.
+17=#P0#=mb	#P1#=UPDDAT	#P2#=Project1/form1/UPDDAT	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161219233837	#P7#=0	#P8#=10	.
+18=#P0#=mb	#P1#=Form_DblClick	#P2#=Project1/form1/Form_DblClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161219123623	#P7#=0	#P8#=1	.
+19=#P0#=mb	#P1#=PONTOIthes_Click	#P2#=Project1/form1/PONTOIthes_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161219074741	#P7#=0	#P8#=157	.
+20=#P0#=mb	#P1#=DataGrid1_Click	#P2#=Project1/PARAMETROI/DataGrid1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161218082527	#P7#=0	#P8#=26	.
+21=#P0#=mb	#P1#=Form_Load	#P2#=Project1/PARAMETROI/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161218075846	#P7#=0	#P8#=5	.
+22=#P0#=mb	#P1#=Form_Paint	#P2#=Project1/PARAMETROI/Form_Paint	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20161218074058	#P7#=0	#P8#=3	.
+23=#P0#=mb	#P1#=main	#P2#=Project1/Module1/main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20161218071451	#P7#=0	#P8#=5	.

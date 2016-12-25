@@ -68,7 +68,6 @@ Begin VB.Form PARAMETROI
       _Version        =   393216
    End
    Begin MSDataGridLib.DataGrid DataGrid1 
-      Bindings        =   "PARAMETROI.frx":0000
       Height          =   5760
       Left            =   120
       TabIndex        =   1

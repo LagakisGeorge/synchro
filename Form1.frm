@@ -77,7 +77,7 @@ Begin VB.Form form1
       _ExtentX        =   4683
       _ExtentY        =   661
       _Version        =   393216
-      Format          =   52232193
+      Format          =   177274881
       CurrentDate     =   42689
    End
    Begin VB.CheckBox specialDay 
@@ -230,7 +230,7 @@ Begin VB.Form form1
       Width           =   2655
    End
    Begin VB.Label Label1 
-      Caption         =   "ver.2016.09"
+      Caption         =   "ver.2016.12.22"
       Height          =   252
       Index           =   1
       Left            =   624
@@ -2338,7 +2338,7 @@ RL.Open "select * from EGGTIMDEL", GDB, adOpenDynamic, adLockOptimistic
       If Not IsNull(RL("ID")) Then
          ID = RL("ID")
          If ID > 0 Then
-            GDBR.Execute "DELETE FROM EGGTIM WHERE ID=" + Str(ID), N
+            GDBR.Execute "DELETE FROM EGGTIM WHERE APOT=" + F_APOT + "  AND  ID=" + Str(ID), N
             If N > 0 Then
                GDB.Execute "DELETE FROM EGGTIMDEL WHERE ID=" + Str(ID)
                List1.AddItem "**** диецяажг то ID " + Str(ID)
@@ -2364,7 +2364,7 @@ Exit Sub
 SEELINE:
           'HandleError "MdiForm-load"
           'Resume Next
-2680     Resume Next
+2680    ' Resume Next
 'MsgBox fname + " - " + Str(RR(K).Type) + Str(Erl) + " - " + _
           Err.Description
 2690      List1.AddItem Format(Now, "dd/mm/yyyy HH:MM") + "АПОСУМДЕСГ"
@@ -2374,8 +2374,8 @@ SEELINE:
           SAVE_ERROR Err.Description & " in DELEGGTIM_Click " & "at line " & Erl
 
 2730      Me.Caption = Str(Erl) + "-----" + Err.Description
-2740  MsgBox Str(Erl) + Err.Description
-2750  End
+2740 ' MsgBox Str(Erl) + Err.Description
+2750 ' End
 
 
 2760      open_data
@@ -3009,9 +3009,9 @@ If F_SYNCHRO_KIN = 1 Then
             Me.Caption = "емглеяысг йимгсеым  " + Format(Now, "HH:MM")
 3190        synchro
             DoEvents
-'           Me.Caption = "емглеяысг диацяаллемым йимгсеым  " + Format(Now, "HH:MM")
-'3200       DELEGGTIM
-'           DoEvents
+            Me.Caption = "емглеяысг диацяаллемым йимгсеым  " + Format(Now, "HH:MM")
+3200        DELEGGTIM
+            DoEvents
 End If
 
 
@@ -3624,21 +3624,21 @@ Dim nc As Long
 
 
 If FolderExists("\\POS1\TEC_POS\DATA") Then
-      FileCopy "C:\MERCVB\customer.upd", "\\POS1\TEC_POS\DATA\POSFILE.TXT"
+      FileCopy "C:\MERCVB\POSFILE.TXT", "\\POS1\TEC_POS\DATA\POSFILE.TXT"
       List1.AddItem "емгл. то POS1 ME еидг"
 Else
       List1.AddItem "!!! дEN емгл. то POS1 ME еидг"
 End If
 
 If FolderExists("\\POS2\TEC_POS\DATA") Then
-      FileCopy "C:\MERCVB\customer.upd", "\\POS2\TEC_POS\DATA\POSFILE.TXT"
+      FileCopy "C:\MERCVB\POSFILE.TXT", "\\POS2\TEC_POS\DATA\POSFILE.TXT"
       List1.AddItem "емгл. то POS2 ME еидг"
 Else
       List1.AddItem "!!! дEN емгл. то POS2 ME еидг"
 End If
 
 If FolderExists("\\POS3\TEC_POS\DATA") Then
-      FileCopy "C:\MERCVB\customer.upd", "\\POS3\TEC_POS\DATA\POSFILE.TXT"
+      FileCopy "C:\MERCVB\POSFILE.TXT", "\\POS3\TEC_POS\DATA\POSFILE.TXT"
       List1.AddItem "емгл. то POS3 ME еидг"
 Else
       List1.AddItem "!!! дEN емгл. то POS3 ME еидг"
